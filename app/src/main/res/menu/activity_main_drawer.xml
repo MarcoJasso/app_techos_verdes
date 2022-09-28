@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_inicio"
+            android:icon="@drawable/ic_home_24"
+            android:title="@string/menu_inicio" />
+        <item
+            android:id="@+id/nav_consulta"
+            android:icon="@drawable/ic_search_24"
+            android:title="@string/menu_consulta" />
+        <item
+            android:id="@+id/nav_favoritos"
+            android:icon="@drawable/ic_favorite_24"
+            android:title="@string/menu_favorito" />
+        <item
+            android:id="@+id/nav_monitores"
+            android:icon="@drawable/ic_remove_red_eye_24"
+            android:title="@string/menu_monitores"
+            android:visible="false"/>
+        <item
+            android:id="@+id/nav_riego"
+            android:icon="@drawable/ic_eco_24"
+            android:title="@string/menu_riego"
+            android:visible="true"
+            />
+
+    </group>
+</menu>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_inicio">
+
+    <fragment
+        android:id="@+id/nav_inicio"
+        android:name="com.example.app_techos_vendes.ui.home.HomeFragment"
+        android:label="@string/menu_inicio"
+        tools:layout="@layout/fragment_inicio" >
+        <action
+            android:id="@+id/action_nav_inicio_to_nav_consulta"
+            app:destination="@id/nav_consulta" />
+        <action
+            android:id="@+id/action_nav_inicio_to_loginFragment2"
+            app:destination="@id/loginFragment2" />
+        <action
+            android:id="@+id/action_nav_inicio_to_favoritosFragment"
+            app:destination="@id/nav_favoritos" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_consulta"
+        android:name="com.example.app_techos_vendes.ui.consulta.ConsultaFragment"
+        android:label="@string/menu_consulta"
+        tools:layout="@layout/fragment_consulta" >
+        <action
+            android:id="@+id/action_nav_consulta_to_nav_inicio"
+            app:destination="@id/nav_inicio" />
+        <action
+            android:id="@+id/action_nav_consulta_to_consultaPlantasActivity"
+            app:destination="@id/consultaPlantasActivity" />
+    </fragment>
+    <fragment
+        android:id="@+id/loginFragment2"
+        android:name="com.example.app_techos_vendes.ui.log.uiLog.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_loginFragment2_to_registrarseFragment2"
+            app:destination="@id/registrarseFragment2" />
+        <action
+            android:id="@+id/action_loginFragment2_to_nav_inicio"
+            app:destination="@id/nav_inicio" />
+    </fragment>
+    <fragment
+        android:id="@+id/registrarseFragment2"
+        android:name="com.example.app_techos_vendes.ui.log.uiLog.RegistrarseFragment"
+        android:label="fragment_registrarse"
+        tools:layout="@layout/fragment_registrarse" >
+        <action
+            android:id="@+id/action_registrarseFragment2_to_loginFragment2"
+            app:destination="@id/loginFragment2" />
+    </fragment>
+
+    <activity
+        android:id="@+id/consultaPlantasActivity"
+        android:name="com.example.app_techos_vendes.ui.consulta.consulta_planta.ConsultaPlantasActivity"
+        android:label="activity_consulta_plantas"
+        tools:layout="@layout/activity_consulta_plantas" />
+
+    <fragment
+        android:id="@+id/nav_riego"
+        android:name="com.example.app_techos_vendes.ui.riego.RiegoFragment"
+        android:label="Riego"
+        tools:layout="@layout/fragment_riego">
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_favoritos"
+        android:name="com.example.app_techos_vendes.ui.uifavoritos.FavoritosFragment"
+        android:label="Favoritos" >
+        <action
+            android:id="@+id/action_favoritosFragment_to_nav_inicio"
+            app:destination="@id/nav_favoritos" />
+    </fragment>
+
+</navigation>

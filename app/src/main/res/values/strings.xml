@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">app_techos_vendes</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">USR100</string>
+    <string name="nav_header_subtitle">Maria Juana López Olgin</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_inicio">Inicio</string>
+    <string name="menu_consulta">Consulta</string>
+    <string name="menu_monitores">Monitores</string>
+    <string name="menu_riego">Riego</string>
+    <string name="menu_favorito">Favoritos</string>
+
+
+    <!--Contenido de prueba-->
+    <string name="content_description">Puede usar los procedimientos de este artículo para obtener información sobre cómo agregar texto alternativo a una forma, imagen, gráfico, elemento gráfico SmartArt u otro objeto.</string>
+    <string name="content_description_media">content description media</string>
+
+    <string name="content_title_card">Titulo temp.</string>
+    <string name="content_subtitle_card">Subtitle temp</string>
+    <string name="content_body_card">Content body temp</string>
+
+    <string name="txt_consulta_plantas">Consulta de plantas</string>
+    <string name="txt_consulta_tiendas">Consulta de tiendas</string>
+
+    <string name="txt_btn_regresar">Regresar</string>
+
+    <string name="txt_usuario">Usuario</string>
+    <string name="txt_password">Contraseña</string>
+    <string name="txt_conf_password">Confirmar contraseña</string>
+    <string name="txt_nombre_usuario">Nombre</string>
+    <string name="txt_nombre_apellidos">Apellidos</string>
+    <string name="txt_correo">E-mail</string>
+
+    <string name="txt_hombre">Hombre</string>
+    <string name="txt_mujer">Mujer</string>
+
+    <string name="txt_btn_inicio_session">Iniciar sesion</string>
+    <string name="txt_btn_registrarse">Registrarse</string>
+
+    <string name="txt_btn_guardar_registro">Guardar registro</string>
+    <string name="txt_btn_cancelar_registro">Cancelar</string>
+
+    <string name="txt_tv_registrarse">Registrarse</string>
+
+    <string name="txt_primavera">Primavera</string>
+    <string name="txt_verano">Verano</string>
+    <string name="txt_otonio">Otoño</string>
+    <string name="txt_invierno">Invierno</string>
+
+    <string name="txt_btn_leer_mas">Leer más...</string>
+    <string name="txt_btn_llamar_tienda">Llamar</string>
+    <string name="txt_tipo_planta_luz">Tipo de planta</string>
+
+    <string name="content_body_card_1">
+        Reduce la contaminación sonora: Una cubierta verde o jardín vertical, reduce la reflexión del sonido hasta 3 dB y mejora el aislamiento acústico hasta 8 dB. Mejora la calidad del aire:
+    </string>
+
+</resources>
